@@ -10,7 +10,7 @@ a
 {
     color: #9EE493;
     text-decoration: none;
-    text-shadow: 0px 1px 3px#222;
+    text-shadow: 1px 1px 1px #111;
 }
 
 header
@@ -22,6 +22,9 @@ header
 header > img
 {
     border-radius: 0 0 50px 0;
+    border-bottom: 3px solid #42273B;
+    border-right: 3px solid #42273B;
+    box-shadow: 0px 1px 15px 5px #111;
 }
 
 header > div.Info
@@ -62,10 +65,9 @@ body > section.Content > div.List > ul > li > a:hover,
 body > section.Content > div.List > ul > li > a:focus,
 body > section.Content > div.List > ul > li > a:active
 {
-    color: #111;
+    color: #218380;
 }
 
-body > section.Content > p.Paragraph,
 body > section.Content > div.Paragraph
 {
     padding: 10px 30px;
@@ -74,6 +76,16 @@ body > section.Content > div.Paragraph
 body > section.Content > div.Dark
 {
     background-color: #ABC8C0;
+}
+
+body > section.Content > footer
+{
+   margin-bottom: 0;
+   position: sticky;
+   bottom: 0;
+   text-align: center;
+   background-color: #42273B;
+   color: #9EE493;
 }
 
 
