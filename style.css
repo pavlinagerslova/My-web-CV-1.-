@@ -2,28 +2,29 @@ body
 {
     display: flex;
     margin: 0;
+    font: serif 18px;
     line-height: 1.5;
     color: #222;
 }
 
 a
 {
-    color: #9EE493;
+    color: #8F6593;
     text-decoration: none;
-    text-shadow: 1px 1px 1px #111;
+    text-shadow: 0.5px 0.5px 0.5px #111;
 }
 
 header
 {
     flex-basis: 25%;
-    background-color: #70566D;
+    background-color: #AEA4BF;
 }
 
 header > img
 {
     border-radius: 0 0 50px 0;
-    border-bottom: 3px solid #42273B;
-    border-right: 3px solid #42273B;
+    border-bottom: 3px solid #3B252C;
+    border-right: 3px solid #3B252C;
     box-shadow: 0px 1px 15px 5px #111;
 }
 
@@ -35,9 +36,9 @@ header > div.Info
 body > section.Content
 {
     flex-basis: 75%;
-    background-color: #DAF7DC;
-    border-left: 5px solid #42273B;
-    border-right: 5px solid #42273B;
+    background-color: #E3E4DB;
+    border-left: 5px solid #3B252C;
+    border-right: 5px solid #3B252C;
 }
 
 body > section.Content > div.List
@@ -50,7 +51,7 @@ body > section.Content > div.List > ul
 {
     display: flex;
     justify-content: space-between;
-    background-color: #42273B;
+    background-color: #3B252C;
     margin: 0;
     padding: 0 30px;
     list-style: none;
@@ -65,7 +66,7 @@ body > section.Content > div.List > ul > li > a:hover,
 body > section.Content > div.List > ul > li > a:focus,
 body > section.Content > div.List > ul > li > a:active
 {
-    color: #218380;
+    color: #AEA4BF;
 }
 
 body > section.Content > div.Paragraph
@@ -75,7 +76,7 @@ body > section.Content > div.Paragraph
 
 body > section.Content > div.Dark
 {
-    background-color: #ABC8C0;
+    background-color: #CDCDCD;
 }
 
 body > section.Content > footer
@@ -84,8 +85,8 @@ body > section.Content > footer
    position: sticky;
    bottom: 0;
    text-align: center;
-   background-color: #42273B;
-   color: #9EE493;
+   background-color: #3B252C;
+   color: #8F6593;
 }
 
 
