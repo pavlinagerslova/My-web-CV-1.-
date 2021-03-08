@@ -31,12 +31,12 @@ header > img
     box-shadow: 0px 1px 15px 5px #111;
 }
 
-header > div.Info
+div.info
 {
     padding:0 20px ;
 }
 
-body > section.Content
+section.content
 {
     flex-basis: 69%;
     background-color: #E3E4DB;
@@ -44,13 +44,13 @@ body > section.Content
     border-right: 5px solid #3B252C;
 }
 
-body > section.Content > div.List
+div.list
 {
     position: sticky;
     top: 0;
 }
 
-body > section.Content > div.List > ul
+div.list > ul
 {
     display: flex;
     justify-content: space-between;
@@ -59,30 +59,31 @@ body > section.Content > div.List > ul
     padding: 0 30px;
     list-style: none;
 }
-body > section.Content > div.List > ul > li
+
+div.list > ul > li
 {
     padding: 0 10px;
     
 }
 
-body > section.Content > div.List > ul > li > a:hover,
-body > section.Content > div.List > ul > li > a:focus,
-body > section.Content > div.List > ul > li > a:active
+ div.list > ul > li > a:hover,
+ div.list > ul > li > a:focus,
+ div.list > ul > li > a:active
 {
     color: #AEA4BF;
 }
 
-body > section.Content > div.Paragraph
+ div.paragraph
 {
     padding: 10px 30px;
 }
 
-body > section.Content > div.Dark
+ div.dark
 {
     background-color: #CDCDCD;
 }
 
-body > section.Content > footer
+ footer
 {
    margin-bottom: 0;
    position: sticky;
